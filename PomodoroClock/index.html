@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PomodoroClock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="timer-section">
+            <div id="time">
+                <span id="minute">00</span>
+                <span>:</span>
+                <span id="second">00</span>
+            </div>
+        </div>
+        <div id="session-section">
+            <button id="header-section-btn">
+                <span id="status">Session</span>
+                <span id="session-count">1</span>
+            </button>
+            <section id="time-update-section">
+                <div id="session-time">
+                    <p>session time</p>
+                    <p id="session-time-value">20 min</p>
+                    <button id="s-minus">-</button>
+                    <button id="s-plus">+</button>
+                </div>
+                <div id="break-time">
+                    <p>break time</p>
+                    <p id="break-time-value">5 min</p>
+                    <button id="b-minus">-</button>
+                    <button id="b-plus">+</button>
+                </div>
+            </section>
+            <section id="buttons-section">
+                <button id="start">start</button>
+                <button id="reset">Reset</button>
+            </section>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

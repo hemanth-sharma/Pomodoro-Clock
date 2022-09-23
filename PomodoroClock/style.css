@@ -1,0 +1,98 @@
+/* html{
+    height: 100%;
+} */
+body{
+    height: 100vh;
+    background-color: #f0c98c;
+    
+}
+.container{
+    height: 460px;
+    width: 220px;
+    background-color: rgb(63, 58, 55);
+    color: white;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: -1px 7px 48px -8px rgb(0 0 0 / 52%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+#timer-section{
+    border: 10px solid rgb(145, 137, 137);
+    height: 230px;
+    width: 82%;
+    background-color: white;
+    color: lightblue;
+    font-weight: 800;
+    font-size: x-large;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#time{
+    font-size: xx-large;
+}
+#session-section{
+    height: 230px;
+    width: 95%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* flex: ; */
+}
+#header-section-btn{
+    background-color: rgb(46, 42, 40);
+    color: white;
+    height: 70px;
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    border: 0px;
+    border-radius: 5px;
+    
+}
+#header-section-btn:hover{
+    opacity: 0.7;
+}
+#time-update-section{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    
+}
+#time-update-section button{
+    width: 30px;
+    color: white;
+    background-color: rgb(24, 23, 23);
+    border: 0px;
+    border-radius: 5px;
+
+}
+#buttons-section{
+    height: 70px;
+}
+#buttons-section button{
+    margin-top: 18px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0.5rem;
+    border: 0px;
+    color: white;
+    background-color: rgb(24, 23, 23);
+    border-radius: 5px;
+    width: 60px;
+}
+#session-time-value{
+    color: lightblue;
+}
+#break-time-value{
+    color: rgb(246, 133, 77);
+}
